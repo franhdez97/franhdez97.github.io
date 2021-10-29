@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Francisco Hernández">
+    <meta property="og:title" content="Portafolio | Francisco Hernández">
+    <meta name="twitter:title" content="Portafolio | Francisco Hernández">
+    <meta name="description" content="Soy desarrollador web y móvil, ven te invito a mirar mi portafolio.">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Portafolio | Francisco Hernández</title>
+
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <!-- WELCOME -->
+    <main class="container container--fullscreen">
+        <div class="welcome">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="wave-top only-web">
+                <path fill="#8CFFDA" fill-opacity="1" d="M0,64L48,74.7C96,85,192,107,288,106.7C384,107,480,85,576,117.3C672,149,768,235,864,266.7C960,299,1056,277,1152,272C1248,267,1344,277,1392,282.7L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+            </svg>
+    
+            <div class="welcome__description">
+                <h1>
+                    Hola, me llamo Francisco
+                    <span>desarrollador web y móvil <span class="cursor">|</span></span>
+                </h1>
+                <p>
+                    No hay mucho que decir, paso mi tiempo <b>escribiendo código</b> o disfrutando de las cosas que me gustan.
+                </p>
+            </div>
+            <div class="welcome__photo">
+                <img src="assets/img/profile.jpg" alt="Foto de perfil" />
+            </div>
+        </div>
+
+        <div class="separator"></div>
+
+        <div class="nav nav--web only-web">
+            <ul>
+                <a class="nav__item" href="#projects">Proyectos</a>
+                <a class="nav__item" href="#skills">Habilidades</a>
+                <a class="nav__item" href="#contact">Contactos</a>
+            </ul>
+        </div>
+    </main>
+
+    <!-- PROJECTS -->
+    <section class="container" id="projects">
+        <h2 class="text-center">Proyectos que he realizado</h2>
+
+        <div class="grid grid--projects">
+            <div class="card">
+                <div class="card__title">OTYC - Conecta con clientes cerca de ti</div>
+                <div class="card__content">
+                    <p>Conoce nuevos temas de tu interés, anota tus ideas o pedidos de clientes y distribuye tus productos o servicios, puedes tener a la mano distinta información para los diferentes gustos e incluso buscar negocios cerca para pedir ese producto o servicio que necesitas.</p>
+                    <br>
+                    <p><b>Tecnologias:</b> Java, Firebase, OneSignal</p>
+                </div>
+                <div class="card__footer">
+                    <a href="https://play.google.com/store/apps/details?id=com.otycdevs.otyc" target="_blank">Ver demo</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__title">Carwash</div>
+                <div class="card__content">
+                    <p>Un sitio web ficticio sobre un carwash donde los clientes podrán estar al tanto de los diferentes servicios que ofrece el negocio o encontrar ofertas de trabajo, ademas de un un formulario de contacto para resolver cualquier duda.</p>
+                    <br>
+                    <p><b>Tecnologias:</b> Angular, SCSS</p>
+                </div>
+                <div class="card__footer">
+                    <a href="https://carwash-2021.netlify.app/" target="_blank">Ver demo</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__title">Hotel lujoso</div>
+                <div class="card__content">
+                    <p>Un sitio web ficticio sobre un hotel donde los clientes podrán ver imagenes, videos, servicios que ofrece el negocio ademas de poder conocer los diferentes precios que tienen para ti.</p>
+                    <br>
+                    <p><b>Tecnologias:</b> Reactjs, SCSS</p>
+                </div>
+                <div class="card__footer">
+                    <a href="https://hotelfake-2021.netlify.app/" target="_blank">Ver demo</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__title">StreamingApp</div>
+                <div class="card__content">
+                    <p>Un sitio web ficticio de tramsisiones a en vivo (si, ese lugar donde pasas viedos a tus streamers favoritos por horas), con un diseño minimalista y agradable que seguro te cautivara al verlo.</p>
+                    <br>
+                    <p><b>Tecnologias:</b> Reactjs, SCSS</p>
+                </div>
+                <div class="card__footer">
+                    <a href="https://streaming-fake.netlify.app/" target="_blank">Ver demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="bg--primary" id="skills">
+        <h2 class="text-center text-white">Habilidades</h2>
+
+        <div class="grid grid--skills">
+            <div class="skill__title">
+                <p>Web</p>
+            </div>
+            <div class="skill__content">
+                <div class="skill__card">
+                    <ion-icon name="logo-react" class="color-react"></ion-icon>
+                    <p>React JS</p>
+                </div>
+                <div class="skill__card">
+                    <ion-icon name="logo-angular" class="color-angular"></ion-icon>
+                    <p>Angular</p>
+                </div>
+                <div class="skill__card">
+                    <ion-icon name="logo-nodejs" class="color-node"></ion-icon>
+                    <p>Node JS</p>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid--skills">
+            <div class="skill__title">
+                <p>Móvil</p>
+            </div>
+            <div class="skill__content">
+                <div class="skill__card">
+                    <ion-icon name="logo-android" class="color-android"></ion-icon>
+                    <p>Kotlin</p>
+                </div>
+                <div class="skill__card">
+                    <ion-icon name="logo-react" class="color-react"></ion-icon>
+                    <p>React Native</p>
+                </div>
+                <div class="skill__card">
+                    <ion-icon name="logo-ionic" class="color-ionic"></ion-icon>
+                    <p>Ionic</p>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid--skills">
+            <div class="skill__title">
+                <p>Bases de datos</p>
+            </div>
+            <div class="skill__content">
+                <div class="skill__card skill__card--left">
+                    <ion-icon name="server"class="color-database"></ion-icon>
+                    <p>PostgreSQL</p>
+                </div>
+                <div class="skill__card skill__card--right">
+                    <ion-icon name="server"class="color-database"></ion-icon>
+                    <p>MongoDB</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTS -->
+    <section class="container" id="contact">
+        <h2 class="text-center">Contactos</h2>
+
+        <p class="text-center">Puedes contactarme o conocer más sobre mis otros proyectos en cualquiera de los enlaces que encontraras al final de esta página.</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <a href="https://www.behance.net/franhdez" target="_blank">
+            <img src="assets/icons/behance.svg" alt="Link de Behance" >
+        </a>
+        <a href="https://www.linkedin.com/feed/" target="_blank">
+            <img src="assets/icons/linkedin.svg" alt="Link de Linkedin" >
+        </a>
+        <a href="https://play.google.com/store/apps/dev?id=4671468562820203222" target="_blank">
+            <img src="assets/icons/playstore.svg" alt="Link de Playstore" >
+        </a>
+        <a href="https://twitter.com/fran_hdez97" target="_blank">
+            <img src="assets/icons/twitter.svg" alt="Link de Twitter" >
+        </a>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="./js/app-min.js"></script>
+</body>
+</html>
